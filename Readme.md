@@ -93,3 +93,7 @@ minikube addons enable dashboard
 kubectl config use-context gke_ticketing-dev-431506_us-central1-a_ticketing-dev
 
 minikube addons enable ingress 
+
+minikube addons enable dashboard
+ minikube dashboard
+ minikube addons enable metrics-server
